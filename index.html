@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">SpotLight Me Game</h1>
+    <p id="timer">Time: 30s</p>
+    <p id="score">Score: <span id="current-score">0</span></p>
+    <div id="stats">
+        <p>6 Wrong clicks Game Ends</p>
+        <p>Correct Clicks: <span id="correct-clicks">0</span></p>
+        <p>Wrong Clicks: <span id="wrong-clicks">0</span></p>
+    </div>
+    <button id="reset-button" onclick="restartGame()">Reset Game</button>
+    <div id="game-container" class="game_container"></div>
+</body>
+<script src="script.js"></script>
+</html>
